@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar {
+    width: auto;
+    height: 100px;
+    background-color: red;
+    display: flex;
+}
+
+.aside {
+    width: 30%;
+    height: 100px;
+    background-color: sandybrown;
+    /* margin-left: 10px; */
+    margin: auto;
+    display: flex;
+    place-items: center;
+}
+
+.heading {
+    text-align: center;
+    /* margin-top: 30px; */
+    color: yellow;
+}
+
+.nav {
+    width: 60%;
+    height: 100px;
+    background-color:springgreen;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+ul {
+    display: flex;
+    /* justify-content: flex-end; */
+    list-style: none;
+    margin-right: 100px ;
+    
+}
+
+li {
+    margin-right: 50px;
+}
+
+.main {
+    width: auto;
+    height: 515px;
+    background-color:wheat;
+    margin-top: 40px;
+    display: flex;
+}
+
+.left {
+    width: 30%;
+    height: 400px;
+    background-color: purple;
+    margin: auto;
+    /* display: flex; */
+}
+
+.circle {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: yellow;
+}
+
+.right {
+    width: 60%;
+    height: 400px;
+    background-color: purple;
+    margin: auto;
+    display: flex;
+}
+
+.rect {
+    width: 65%;
+    height: 90%;
+    margin: auto;
+}
+
+.rect1 {
+    width: 65%;
+    height: 65%;
+    background-color: yellow;
+    margin: auto;
+}
+
+.rect2 {
+    width: 65%;
+    height: 30%;
+    background-color: yellow;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.rect3 {
+    width: 25%;
+    height: 90%;
+    background-color: yellow;
+    margin: auto;
+}
